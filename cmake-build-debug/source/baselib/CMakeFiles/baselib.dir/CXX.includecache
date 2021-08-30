@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../source/baselib/include/baselib/baselib.h
+string
+-
+baselib/baselib_api.h
+-
+
+D:/dev/projects/vulkan-demo/source/baselib/source/baselib.cpp
+iostream
+-
+fstream
+-
+template/template-version.h
+-
+baselib/baselib.h
+-
+
+source/baselib/include/baselib/baselib_api.h
+baselib/baselib_export.h
+-
+
+source/baselib/include/baselib/baselib_export.h
+
+source/include/template/template-version.h
+

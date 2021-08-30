@@ -1,0 +1,11 @@
+"D:\programs\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\dev\projects\vulkan-demo
+-- Could NOT find cppcheck (missing: cppcheck_EXECUTABLE) 
+-- Check cppcheck skipped: cppcheck not found
+-- Could NOT find clang_tidy (missing: clang_tidy_EXECUTABLE) 
+-- Check clang-tidy skipped: clang-tidy not found
+-- Lib baselib
+-- Lib fiblib
+-- Example fibcmd
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/dev/projects/vulkan-demo/cmake-build-debug

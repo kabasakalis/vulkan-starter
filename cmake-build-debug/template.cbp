@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="template"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\source\;CMake Files\source\baselib\;CMake Files\source\codegeneration\;CMake Files\source\fiblib\;CMake Files\source\examples\;CMake Files\source\examples\fibcmd\;CMake Files\docs\;CMake Files\deploy\;CMake Files\deploy\packages\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 package_source"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="baselib">
+				<Option output="D:/dev/projects/vulkan-demo/cmake-build-debug/baselibd.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSYSTEM_WINDOWS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/baselib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib/include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 baselib"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="baselib/fast">
+				<Option output="D:/dev/projects/vulkan-demo/cmake-build-debug/baselibd.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSYSTEM_WINDOWS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/baselib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib/include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 baselib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check-all">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 check-all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check-baselib">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 check-baselib"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\baselib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fiblib">
+				<Option output="D:/dev/projects/vulkan-demo/cmake-build-debug/fiblibd.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSYSTEM_WINDOWS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/fiblib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib/include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 fiblib"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fiblib/fast">
+				<Option output="D:/dev/projects/vulkan-demo/cmake-build-debug/fiblibd.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSYSTEM_WINDOWS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/fiblib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib/include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 fiblib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check-fiblib">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 check-fiblib"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\fiblib\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibcmd">
+				<Option output="D:/dev/projects/vulkan-demo/cmake-build-debug/fibcmdd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSYSTEM_WINDOWS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/baselib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/fiblib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib/include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 fibcmd"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibcmd/fast">
+				<Option output="D:/dev/projects/vulkan-demo/cmake-build-debug/fibcmdd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSYSTEM_WINDOWS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/baselib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/baselib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/source/fiblib/include"/>
+					<Add directory="D:/dev/projects/vulkan-demo/cmake-build-debug/source/fiblib/include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\programs\vs\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 fibcmd/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check-fibcmd">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/source/examples/fibcmd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 check-fibcmd"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\source\examples\fibcmd\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pack">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/deploy"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 pack"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="component_install">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/deploy"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 component_install"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pack-template">
+				<Option working_dir="D:/dev/projects/vulkan-demo/cmake-build-debug/deploy"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 pack-template"/>
+					<CompileFile command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\dev\projects\vulkan-demo\cmake-build-debug\deploy\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/baselib/include/baselib/baselib.h">
+			<Option target="baselib"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/baselib/source/baselib.cpp">
+			<Option target="baselib"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/examples/fibcmd/main.cpp">
+			<Option target="fibcmd"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/fiblib/include/fiblib/CTFibonacci.h">
+			<Option target="fiblib"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/fiblib/include/fiblib/CTFibonacci.inl">
+			<Option target="fiblib"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/fiblib/include/fiblib/Fibonacci.h">
+			<Option target="fiblib"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/fiblib/source/Fibonacci.cpp">
+			<Option target="fiblib"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/ClangTidy.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/CompileOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/Cppcheck.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/Custom.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/Findclang_tidy.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/Findcppcheck.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/GenerateTemplateExportHeader.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/HealthCheck.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/cmake/RuntimeDependencies.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/version.h.in">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/baselib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\baselib\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/codegeneration/template_msvc_api.h.in">
+			<Option virtualFolder="CMake Files\source\codegeneration\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/fiblib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\fiblib\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\examples\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/source/examples/fibcmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\examples\fibcmd\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/deploy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\"/>
+		</Unit>
+		<Unit filename="D:/dev/projects/vulkan-demo/deploy/packages/pack-template.cmake">
+			<Option virtualFolder="CMake Files\deploy\packages\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
